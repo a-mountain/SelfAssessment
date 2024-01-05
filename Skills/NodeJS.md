@@ -1,35 +1,35 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js
-  - Stateful and stateless servers
-  - Nonblocking I/O and slocking code
-  - Event loop: phases
-  - Event loop: microtasks and macrotasks
-  - Garbage collection
+  - Strong and weak sides of node.js 🎓 known
+  - Stateful and stateless servers 🎓 known
+  - Nonblocking I/O and slocking code 🎓 known
+  - Event loop: phases 
+  - Event loop: microtasks and macrotasks 
+  - Garbage collection 🎓 known
   - Node.js LTS schedule
-  - I/O-bound, CPU-bound, memory-bound tasks
+  - I/O-bound, CPU-bound, memory-bound tasks 🎓 known
   - Interactive applications (close to real-time)
 - Modularity, layers and dependencies
-  - CommonJS modules
-  - ECMAScript modules
-  - node:module
+  - CommonJS modules 🎓 known
+  - ECMAScript modules 🎓 known
+  - node:module 🎓 known
   - Caching in CJS and ESM
-  - Modules as singletons
-  - Contexts and scripts node:vm
-  - Dependencies: npm, node_modules
-  - Dependencies: package.json and package lock
-  - Module-based permissions model
-  - Isolation with modularity
-  - Dependency injection
-  - DI containers
-  - Coupling and cohesion
-  - Framework agnostic approach
+  - Modules as singletons 🎓 known
+  - Contexts and scripts node:vm   🔬 researched
+  - Dependencies: npm, node_modules 🎓 known
+  - Dependencies: package.json and package lock 🎓 known
+  - Module-based permissions model 🎓 known
+  - Isolation with modularity 
+  - Dependency injection 🎓 known
+  - DI containers 🎓 known
+  - Coupling and cohesion 🎓 known
+  - Framework agnostic approach 🎓 known
 - Environment
-  - Command line arguments
+  - Command line arguments 
   - Node.js CLI
   - Process-based permissions
-  - Graceful shutdown
+  - Graceful shutdown 🎓 known
   - Clustering
   - Watch filesystem changes with --watch
 - Internal API
@@ -61,80 +61,80 @@
   - Blob, File, Buffer, node:buffer
   - Module node:zlib
 - Application structure and architecture
-  - Isolation between layer
-  - Multilayer approach
-  - Separation of concerns
-  - Inversion of control
-  - Dependency injection
-  - GRASP
-  - SOLID
-  - GoF patterns
-  - Distributed systems
-  - Highload applications
-  - Clean architecture
-  - DDD
-  - Message Queue
-  - CQS
-  - CQRS
-  - Event sourcing
-  - Load balancing
-  - Serverless clouds
+  - Isolation between layer 🎓 known
+  - Multilayer approach 🎓 known
+  - Separation of concerns 🎓 known
+  - Inversion of control 🎓 known
+  - Dependency injection 🎓 known
+  - GRASP 🎓 known
+  - SOLID 🎓 known
+  - GoF patterns 🎓 known
+  - Distributed systems 🎓 known
+  - Highload applications 🎓 known
+  - Clean architecture 🎓 known
+  - DDD 🎓 known
+  - Message Queue 🎓 known
+  - CQS 🎓 known
+  - CQRS 🎓 known
+  - Event sourcing 🎓 known
+  - Load balancing 🎓 known
+  - Serverless clouds 🎓 known
   - FaaS clouds
-  - Fat controller
-  - GoF for Node.js
-  - Leaking abstractions
+  - Fat controller 🎓 known
+  - GoF for Node.js 🎓 known
+  - Leaking abstractions 🎓 known
 - Network
-  - IP sticky sessions
+  - IP sticky sessions 🎓 known
   - Endpoint throttling
-  - HTTP(S)
-  - TCP/SSL
-  - UDP
-  - TLS
-  - Websocket
+  - HTTP(S) 🎓 known
+  - TCP/SSL 🎓 known
+  - UDP 🎓 known
+  - TLS 🎓 known
+  - Websocket 🎓 known
   - SSE
   - HTTP/3 (QUIC)
-  - Long polling
-  - REST
-  - RPC
-  - Routing
+  - Long polling 🎓 known
+  - REST 🎓 known
+  - RPC 🎓 known
+  - Routing 🎓 known
   - DoS
-  - DDoS
+  - DDoS 🎓 known
   - XSS
   - Path traversal
   - CSRF
-  - DNS
-  - Fetch API
+  - DNS 🎓 known
+  - Fetch API 🎓 known
   - IncomingMessage
-  - SQL injection
+  - SQL injection 🎓 known
   - noDelay
-  - keep-alive
+  - keep-alive 🎓 known
   - ALPN
   - SNI callback
-  - SSL certificates
-  - Protocol agnostic approach
+  - SSL certificates 🎓 known
+  - Protocol agnostic approach 🎓 known
 - Technique and tools
   - Native test runner
-  - Logging
-  - Application configuring
-  - Testing
-  - CI/CD
+  - Logging 🎓 known
+  - Application configuring 🎓 known
+  - Testing 🎓 known
+  - CI/CD 🎓 known
   - Readable
   - Writable
   - Transform
   - back pressure
-  - Buffer
-  - Console
+  - Buffer 🎓 known
+  - Console 🎓 known
   - Inspector
   - Reliability
   - Quality
   - Availability
   - Flexibility
 - Data access
-  - Data access layer
-  - Repository
-  - Active record
-  - Query builder
-  - Object-Relational Mapping
+  - Data access layer 🎓 known
+  - Repository 🎓 known
+  - Active record 🎓 known
+  - Query builder 🎓 known
+  - Object-Relational Mapping 🎓 known
 - Error handling and debugging
   - Error
   - error.cause
@@ -147,9 +147,9 @@
   - Heap dump
   - Debugging tools
   - Flame graph
-  - Memory leaks
-  - Resource leaks
-  - Data race
+  - Memory leaks 🎓 known
+  - Resource leaks 🎓 known
+  - Data race 🎓 known
 - Integrations and bindings
   - Native addons
   - C and C++ addons
